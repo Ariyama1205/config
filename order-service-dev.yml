@@ -23,6 +23,11 @@ management:
 ---
 spring:
   profiles: order1
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
 
 server:
   port: 8201
@@ -30,6 +35,11 @@ server:
 ---
 spring:
   profiles: order2
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
 
 server:
   port: 8202
