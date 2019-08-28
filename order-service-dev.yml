@@ -24,7 +24,7 @@ management:
 spring:
   profiles: order1
   rabbitmq:
-    host: 192.168.64.140
+    host: 192.168.220.129
     port: 5672
     username: admin
     password: admin
@@ -36,7 +36,7 @@ server:
 spring:
   profiles: order2
   rabbitmq:
-    host: 192.168.64.140
+    host: 192.168.220.129
     port: 5672
     username: admin
     password: admin
